@@ -23,5 +23,5 @@ _(en construcción — próximamente análisis y write-ups de prácticas de cibe
 
 ## Contacto
 
-- LinkedIn: [tu enlace aquí]
+- LinkedIn: https://www.linkedin.com/in/hectorfalero/
 - Email: hectorftr@gmail.com
