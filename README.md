@@ -19,7 +19,19 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 
 ## Proyectos
 
-_(en construcción — próximamente análisis y write-ups de prácticas de ciberseguridad)_
+## Proyectos
+
+*   📂 [**Proyecto 1: Auditoría de Seguridad — Botium Toys**](./proyecto-1-auditoria-botium-toys)
+    *   *Análisis de cumplimiento y auditoría interna de controles de seguridad de la información.*
+*   📂 [**Proyecto 2: Análisis de Incidentes de Red — Yummy Recipes**](./proyecto-2-analisis-red-yummyrecipes)
+    *   *Investigación técnica de tráfico sospechoso y gestión de alertas perimetrales.*
+*   📂 [**Proyecto 3: Mitigación de Ataques DoS — SYN Flood**](./proyecto-3-syn-flood-attack)
+    *   *Análisis y contramedidas para ataques de denegación de servicio a nivel de capa de transporte.*
+*   📂 [**Proyecto 4: Evaluación de Riesgos y Hardening — Social Media Organization**](./proyecto-4-Risk-Assessment-SocialMedia)
+    *   *Plan estratégico de endurecimiento de sistemas operativos, accesos corporativos y políticas de contraseñas.*
+*   📂 [**Proyecto 5: Reporte de Incidente bajo el Marco NIST CSF — ICMP Flood**](./proyecto-5-incident-report-nist-csf)
+    *   *Gestión completa de un ataque perimetral estructurado bajo las fases Identify, Protect, Detect, Respond y Recover.*
+
 
 ## Contacto
 
