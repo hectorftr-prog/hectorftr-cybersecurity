@@ -1,44 +1,40 @@
-# Network Hardening & Risk Assessment Report
+# Endurecimiento de Red y Evaluación de Riesgos
+## 📌 Resumen del Proyecto
+Este proyecto consiste en un informe de evaluación de riesgos de seguridad desarrollado para abordar vulnerabilidades críticas de red tras un escenario de brecha de datos importante en una organización de redes sociales. El objetivo fue identificar fallos en el control de acceso y las defensas perimetrales de red, y proponer un plan estratégico de endurecimiento (hardening) para prevenir futuros incidentes.
 
-## 📌 Project Overview
-This project consists of a security risk assessment report developed to address critical network vulnerabilities following a major data breach scenario in a social media organization. The objective was to identify flaws in access control and network perimeter defenses, and propose a strategic hardening plan to prevent future incidents.
-
-## 🔎 Identified Vulnerabilities
-During the infrastructure inspection, four major security gaps were discovered:
-1. Employees sharing corporate credentials.
-2. Default administrator password active on the main database.
-3. Firewalls operating without explicit traffic filtering rules (ingress/egress).
-4. Lack of Multi-Factor Authentication (MFA) deployment.
-
----
-
-## 🛠️ Part 1: Select up to three hardening tools and methods to implement
-* **Multi-Factor Authentication (MFA) deployment**
-* **Enforcement of a strict password management policy**
-* **Firewall rule configuration (Ingress/Egress filtering)**
+## 🔎 Vulnerabilidades Identificadas
+Durante la inspección de la infraestructura, se descubrieron cuatro brechas de seguridad principales:
+1. Empleados compartiendo credenciales corporativas
+2. Contraseña de administrador por defecto activa en la base de datos principal
+3. Firewalls operando sin reglas explícitas de filtrado de tráfico (entrada/salida)
+4. Ausencia de implementación de Autenticación Multifactor (MFA)
 
 ---
-
-## 📊 Part 2: Explain your recommendations
-
-Looking into our recent data breach, it is clear that our biggest weaknesses are tied to weak access controls and unmonitored network traffic. To fix this and prevent future incidents, I highly recommend implementing the following actions right away:
-
-### 1. Multi-Factor Authentication (MFA) Deployment
-* **Why it is effective:** Right now, our employees are sharing passwords, making it incredibly easy for a threat actor to compromise a single credential and move laterally through our network. MFA adds a critical layer of defense; even if a password is leaked or shared, an attacker cannot gain access without a secondary physical token or biometric verification.
-* **How often it should be implemented:** This must be an **ongoing, permanent control**. It should be enforced mandatory for all new hires during onboarding, required for every single login session, and audited quarterly to ensure no accounts have bypassed the policy.
-
-### 2. Strict Password Management Policy
-* **Why it is effective:** Leaving default admin credentials active is an open door for intruders, and sharing accounts prevents us from having accurate audit logs. Forcing an immediate change of the default database admin password stops automated brute-force attacks. Enforcing unique, complex passwords via a corporate password manager eliminates credential sharing entirely.
-* **How often it should be implemented:** This technique requires **both immediate and recurring actions**. Default passwords must be changed immediately upon deploying any new system or software. Password complexity rules are set once in our Identity Provider (IdP), while credential audits and automated alerts for exposed passwords should run continuously.
-
-### 3. Firewall Rule Configuration (Ingress/Egress Filtering)
-* **Why it is effective:** Operating firewalls without explicit rules means we are completely blind to traffic entering and leaving our perimeter, allowing unauthorized connections to pass undetected. Implementing ingress and egress filtering effectively restricts access to trusted ports and blocks unauthorized data transfers, stopping external attacks and potential data exfiltration.
-* **How often it should be implemented:** This is a **continuous lifecycle process**. The base ruleset must be implemented immediately. After that, firewall rules should be reviewed and cleaned up **bi-annually or whenever major network changes occur** to ensure old, unused permissions are revoked.
+## 🛠️ Parte 1: Seleccionar hasta tres herramientas y métodos de endurecimiento
+* **Implementación de Autenticación Multifactor (MFA)**
+* **Aplicación de una política estricta de gestión de contraseñas**
+* **Configuración de reglas de firewall (filtrado de entrada/salida)**
 
 ---
-## 💡 Skills Demonstrated
-* Risk Assessment & Incident Mitigation
-* Network Security & Hardening Concepts
-* Access Control & Identity Management (IAM)
-* Technical Report Writing & Compliance Guidance
+## 📊 Parte 2: Explicación de las recomendaciones
 
+Analizando la reciente brecha de datos, es evidente que nuestras mayores debilidades están vinculadas a controles de acceso débiles y tráfico de red sin monitorizar. Para solucionarlo y prevenir futuros incidentes, se recomienda implementar de inmediato las siguientes acciones:
+
+### 1. Implementación de Autenticación Multifactor (MFA)
+* **Por qué es efectivo:** Actualmente, los empleados comparten contraseñas, lo que facilita enormemente que un actor malicioso comprometa una sola credencial y se mueva lateralmente por la red. MFA añade una capa crítica de defensa; aunque una contraseña se filtre o se comparta, un atacante no puede acceder sin un segundo factor (token físico o verificación biométrica).
+* **Frecuencia de implementación:** Debe ser un **control permanente y continuo**. Debe ser obligatorio para todo el personal nuevo durante la incorporación, requerido en cada sesión de inicio de sesión, y auditado trimestralmente para asegurar que ninguna cuenta ha eludido la política.
+
+### 2. Política estricta de gestión de contraseñas
+* **Por qué es efectivo:** Mantener credenciales de administrador por defecto es una puerta abierta para intrusos, y compartir cuentas impide tener registros de auditoría precisos. Forzar el cambio inmediato de la contraseña por defecto de la base de datos detiene ataques automatizados de fuerza bruta. Exigir contraseñas únicas y complejas mediante un gestor de contraseñas corporativo elimina por completo el uso compartido de credenciales.
+* **Frecuencia de implementación:** Requiere **acciones tanto inmediatas como recurrentes**. Las contraseñas por defecto deben cambiarse inmediatamente al desplegar cualquier sistema o software nuevo. Las reglas de complejidad se configuran una vez en el proveedor de identidad (IdP), mientras que las auditorías de credenciales y alertas automáticas de contraseñas expuestas deben ejecutarse de forma continua.
+
+### 3. Configuración de reglas de Firewall (filtrado de entrada/salida)
+* **Por qué es efectivo:** Operar firewalls sin reglas explícitas significa estar completamente ciegos al tráfico que entra y sale del perímetro, permitiendo que conexiones no autorizadas pasen desapercibidas. Implementar filtrado de entrada y salida restringe eficazmente el acceso a puertos de confianza y bloquea transferencias de datos no autorizadas, deteniendo ataques externos y una posible exfiltración de datos.
+* **Frecuencia de implementación:** Es un **proceso continuo de ciclo de vida**. El conjunto base de reglas debe implementarse de inmediato. Después, las reglas de firewall deben revisarse y depurarse **semestralmente o cuando ocurran cambios importantes en la red**, para revocar permisos antiguos sin uso.
+
+---
+## 💡 Habilidades Demostradas
+* Evaluación de Riesgos y Mitigación de Incidentes
+* Conceptos de Seguridad y Endurecimiento de Red
+* Control de Acceso y Gestión de Identidad (IAM)
+* Redacción de Informes Técnicos y Asesoramiento de Cumplimiento
