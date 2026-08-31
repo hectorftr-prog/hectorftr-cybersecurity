@@ -1,0 +1,32 @@
+# Incident Report Analysis: ICMP Flood Denial of Service (DoS)
+
+## 📌 Project Overview
+This project presents a comprehensive Cybersecurity Incident Report analyzed through the lens of the National Institute of Standards and Technology Cybersecurity Framework (**NIST CSF**). The scenario involves a media company providing web design, graphic design, and social media solutions that fell victim to an ICMP flood Denial of Service (DoS) attack due to an unconfigured firewall, disrupting network services for two hours.
+
+---
+
+## 📊 Incident Report Framework (NIST CSF Template)
+
+| Function | Framework Analysis & Documentation |
+| :--- | :--- |
+| **Summary** | A Denial of Service (DoS) attack via an ICMP flood compromised the company's internal network for two hours, causing critical and non-critical network services to become completely unresponsive. The root cause was an unconfigured perimeter firewall that allowed a threat actor to flood the infrastructure with inbound ICMP echo requests (pings), saturating the network bandwidth and blocking legitimate traffic. The incident response team successfully mitigated the attack by blocking the malicious traffic, taking non-critical services offline temporarily, and progressively restoring critical operations. |
+| **Identify** | • **Affected Assets:** The perimeter firewall (due to lack of active rules) and the internal network routing infrastructure.<br>• **Business Impact:** A 2-hour complete operational downtime that halted core business processes, specifically web design deployment, graphic design workflows, and social media marketing solutions for clients.<br>• **Access Requirements:** Operational system and network access must be restricted by role. Only authorized IT personnel and cybersecurity analysts should possess modification privileges over firewall configurations, while design and marketing teams require monitored, lower-privilege access to internal resources. |
+| **Protect** | • **Immediate Action Plan:** Enforce an immediate update to the perimeter firewall configuration, shifting from an open default policy to a "default deny" rule for undocumented traffic.<br>• **Firewall Modifications:** Implement inbound ICMP rate limiting to prevent network bandwidth and CPU saturation during high-volume spikes. Enable source IP verification (Anti-Spoofing controls) to detect and drop falsified ICMP packets at the perimeter.<br>• **System Enhancements:** Deploy an active IDS/IPS to filter out malicious ICMP traffic based on known signatures, and mandate bi-annual architectural reviews of all firewall policies to prevent unconfigured rulesets. |
+| **Detect** | • **Network Traffic Monitoring:** Deploy dedicated network monitoring software to establish a traffic baseline and generate real-time alerts for anomalous bandwidth spikes or unusual volumes of inbound external ICMP packets.<br>• **Intrusions Detection:** Implement a signature-based and behavioral IDS to continuously scan incoming perimeter traffic, identify suspicious packet characteristics, and flag automated DoS patterns.<br>• **Account and User Tracking:** Integrate system logs into a SIEM tool to monitor user authentication events, proactively tracking authorized versus unauthorized access and alerting on any unusual account activities or credential abuse. |
+| **Respond** | • **Incident Containment:** Isolate the network perimeter by temporarily taking non-critical systems offline to preserve internal bandwidth, while prioritizing the availability and continuity of critical business operations.<br>• **Threat Neutralization:** Implement immediate access control list (ACL) blocks at the firewall to reject the unauthorized inbound ICMP flood and dropping malicious traffic at the outer perimeter.<br>• **Data Analysis Steps:** Collect and analyze firewall traffic logs, SIEM alerts, and packet captures (PCAP) to determine the attack's geographic origin, volume metrics, and whether IP spoofing tactics were utilized.<br>• **Response Improvements:** Establish an automated incident response playbook for DoS events and mandate a formal post-mortem review to continuously update firewall rules and alert thresholds based on historical attack data. |
+| **Recover** | • **Resource Restoration:** Execute a phased recovery plan, prioritizing critical infrastructure and production databases before progressively bringing non-critical design and marketing network services back online.<br>• **Integrity Verification:** Conduct immediate post-incident sanity checks and configuration audits across all network systems to verify routing tables are intact and ensure no lateral movement or backdoors were established during the DoS disruption.<br>• **Stakeholder Communications:** Disseminate internal technical updates to guide IT staff through safe system reconnections, and deliver an executive transparency summary to affected small-business clients, reinforcing trust by outlining the newly implemented defense enhancements. |
+
+---
+
+## 🗒️ Reflections / Notes
+This incident highlights the critical danger of operating with unconfigured network perimeter defenses. Relying on firewalls without active rules leaves an organization completely vulnerable to automated, high-volume threats like ICMP floods, turning what should be a minor event into a full operational shutdown. 
+
+Moving forward, our cybersecurity strategy must transition from a reactive model to a proactive, layered defense-in-depth approach. Implementing the NIST CSF functions ensures that we do not just block the immediate attack, but also continuously monitor our baselines, automate our response capabilities, and establish reliable communication protocols. For a multimedia company serving small businesses, maintaining network availability is directly tied to client trust and business reputation; therefore, regular architecture audits and infrastructure hardening must be treated as continuous business-critical processes rather than one-time technical tasks.
+
+---
+
+## 💡 Skills Demonstrated
+* NIST Cybersecurity Framework (CSF) Operational Application
+* Incident Response & Mitigation Planning
+* Perimeter Security Engineering (Firewall Hardening, IDS/IPS, Anti-Spoofing)
+* Network Vulnerability Assessment & Traffic Analysis (PCAP/Logs)
