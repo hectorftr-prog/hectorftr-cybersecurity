@@ -1,0 +1,37 @@
+# Network Hardening & Risk Assessment Report
+
+## 📌 Project Overview
+This project consists of a security risk assessment report developed to address critical network vulnerabilities following a major data breach scenario in a social media organization. The objective was to identify flaws in access control and network perimeter defenses, and propose a strategic hardening plan to prevent future incidents.
+
+## 🔎 Identified Vulnerabilities
+During the infrastructure inspection, four major security gaps were discovered:
+1. Employees sharing corporate credentials.
+2. Default administrator password active on the main database.
+3. Firewalls operating without explicit traffic filtering rules (ingress/egress).
+4. Lack of Multi-Factor Authentication (MFA) deployment.
+
+---
+
+## 🛠️ Part 1: Hardening Tools and Methods to Implement
+* **Multi-Factor Authentication (MFA) deployment**
+* **Enforcement of a strict password management policy**
+* **Firewall rule configuration (Ingress/Egress filtering)**
+
+---
+
+## 📊 Part 2: Detailed Recommendations & Analysis
+
+Looking into our recent data breach, it is clear that our biggest weaknesses are tied to weak access controls and unmonitored network traffic. To fix this and prevent future incidents, I highly recommend implementing the following actions right away:
+
+First, we need to roll out **Multi-Factor Authentication (MFA)** across all corporate accounts. Right now, our employees are sharing passwords, which makes it incredibly easy for a threat actor to move laterally through our network once they compromise a single credential. MFA adds a critical layer of defense, ensuring that even if a password is leaked, an attacker cannot gain access without the secondary physical token or biometric verification.
+
+Second, we must immediately change the **default database admin password** and enforce a strict password policy. Leaving default credentials active is an open door for intruders, and sharing accounts prevents us from having proper audit logs. We need to mandate the use of unique, complex passwords for every employee and implement a corporate password manager to stop credential sharing entirely.
+
+Finally, we have to configure our **firewalls** with explicit ingress and egress filtering rules. Leaving our firewalls with no active rules means we are not inspecting any incoming or outgoing traffic, allowing unauthorized connections to slip by undetected. By setting up proper rules, we can block suspicious traffic from entering the network and stop any potential data exfiltration from leaving our systems.
+
+---
+## 💡 Skills Demonstrated
+* Risk Assessment & Mitigation
+* Network Security & Hardening Concepts
+* Access Control & Identity Management (IAM)
+* Technical Report Writing
