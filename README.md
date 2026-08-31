@@ -19,7 +19,6 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 
 ## Proyectos
 
-## Proyectos
 
 *   📂 [**Proyecto 1: Auditoría de Seguridad — Botium Toys**](./proyecto-1-auditoria-botium-toys)
     *   *Análisis de cumplimiento y auditoría interna de controles de seguridad de la información.*
