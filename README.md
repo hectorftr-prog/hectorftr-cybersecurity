@@ -32,6 +32,8 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
   - *Gestión completa de un ataque perimetral estructurado bajo las fases Identify, Protect, Detect, Respond y Recover.*
 * 📁 [Proyecto 6: Análisis de Compromiso por Fuerza Bruta — Yummy Recipes](...)
   - *Identificación de protocolos de red, documentación de incidente y recomendación de controles contra ataques de fuerza bruta.*
+ * 📁 [Proyecto 7: Auditoría y Gestión de Permisos en Linux](./proyecto-7-permisos-linux)
+  * Diagnóstico del sistema de archivos mediante `ls -la`, reconfiguración de permisos de archivos y directorios con `chmod` y aplicación del principio de mínimo privilegio (PoLP).
 ## Contacto
 
 - LinkedIn: https://www.linkedin.com/in/hectorfalero/
