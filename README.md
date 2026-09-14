@@ -28,7 +28,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
     *   *Análisis y contramedidas para ataques de denegación de servicio a nivel de capa de transporte.*
 * 📁 [**Proyecto 4: Evaluación de Riesgos y Hardening – Social Media Organization**](./proyecto-4:%20Evaluaci%C3%B3n%20de%20Riesgos%20y%20Hardening%20%E2%80%94%20Social%20Media%20Organization)
     *   *Plan estratégico de endurecimiento de sistemas operativos, accesos corporativos y políticas de contraseñas.*
-* 📁 [Proyecto 5: Reporte de Incidente bajo el Marco NIST CSF — ICMP Flood](...)
+* 📁 [**Proyecto 5: Reporte de Incidente bajo el Marco NIST CSF – ICMP Flood**](./proyecto-5-incident-report-nist-csf)
   - *Gestión completa de un ataque perimetral estructurado bajo las fases Identify, Protect, Detect, Respond y Recover.*
 * 📁 [Proyecto 6: Análisis de Compromiso por Fuerza Bruta — Yummy Recipes](...)
   - *Identificación de protocolos de red, documentación de incidente y recomendación de controles contra ataques de fuerza bruta.*
