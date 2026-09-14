@@ -34,7 +34,8 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
   - *Identificación de protocolos de red, documentación de incidente y recomendación de controles contra ataques de fuerza bruta.*
 * 📁 [Proyecto 7: Auditoría y Gestión de Permisos en Linux](./proyecto-7-permisos-linux)
   * Diagnóstico del sistema de archivos mediante `ls -la`, reconfiguración de permisos de archivos y directorios con `chmod` y aplicación del principio de mínimo privilegio (PoLP).
-- 📂 [Proyecto 8: Análisis de Logs mediante Filtros SQL](proyecto-8-sql-log-analysis/README.md)
+- 📂 [proyecto-8-sql-log-analysis
+](proyecto-8-sql-log-analysis/README.md)
   - *Aplicación de consultas SQL para filtrar registros de autenticación, identificar intentos de acceso fallidos, analizar actividad por fecha y ubicación y segmentar información mediante `AND`, `OR`, `NOT`, `LIKE` e `IN`.*
 ## Contacto
 
