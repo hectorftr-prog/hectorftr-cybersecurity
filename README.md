@@ -35,8 +35,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 * 📁 [Proyecto 7: Auditoría y Gestión de Permisos en Linux](./proyecto-7-permisos-linux)
   * Diagnóstico del sistema de archivos mediante `ls -la`, reconfiguración de permisos de archivos y directorios con `chmod` y aplicación del principio de mínimo privilegio (PoLP).
 * 📂 Proyecto 8: Análisis de Logs mediante Filtros SQL
-
-Aplicación de consultas SQL para filtrar registros de autenticación, identificar intentos de acceso fallidos, analizar actividad por fecha y ubicación y segmentar información mediante AND, OR, NOT, LIKE e IN.
+  * Aplicación de consultas SQL para filtrar registros de autenticación, identificar intentos de acceso fallidos, analizar actividad por fecha y ubicación y segmentar información mediante AND, OR, NOT, LIKE e IN.
 ## Contacto
 
 - LinkedIn: https://www.linkedin.com/in/hectorfalero/
