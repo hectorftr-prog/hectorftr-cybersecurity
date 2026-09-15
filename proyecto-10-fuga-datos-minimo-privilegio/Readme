@@ -1,0 +1,114 @@
+# Análisis de fuga de datos — Principio de mínimo privilegio y NIST SP 800-53 AC-6
+
+## 1. Descripción de la actividad
+
+En esta actividad se analiza un incidente de fuga de datos ocurrido en una empresa de tecnología educativa. El objetivo es identificar los factores que provocaron el incidente, revisar la aplicación del principio de mínimo privilegio y proponer mejoras de control basadas en **NIST SP 800-53 AC-6 (Least Privilege)**.
+
+---
+
+## 2. Escenario
+
+La empresa dispone de una aplicación utilizada para ayudar a los profesores a calificar automáticamente las tareas y gestiona información procedente de instituciones académicas, profesores, padres y estudiantes.
+
+Durante una reunión comercial, un representante de éxito de clientes compartió accidentalmente con un socio comercial un enlace que daba acceso a una carpeta completa de documentos internos de la empresa.
+
+La carpeta contenía información relacionada con una nueva oferta de productos, incluyendo análisis de clientes y materiales de marketing. Posteriormente, el socio comercial publicó los documentos en redes sociales, provocando una fuga de información interna.
+
+---
+
+## 3. Problema(s)
+
+El gerente mantuvo activo el acceso del representante a una carpeta interna después de que dejara de ser necesario, provocando un exceso de permisos. Posteriormente, el representante compartió por error toda la carpeta con un socio comercial en lugar de limitar el acceso a los materiales de marketing necesarios, lo que permitió la exposición y posterior publicación de información confidencial.
+
+---
+
+## 4. Revisión — NIST SP 800-53 AC-6
+
+NIST SP 800-53 AC-6 establece que el acceso a sistemas y recursos debe limitarse a los usuarios y procesos que lo necesiten para realizar sus funciones autorizadas. El control busca reducir el riesgo de acceso, modificación o divulgación indebida de información mediante la aplicación del principio de mínimo privilegio y la limitación de permisos innecesarios.
+
+---
+
+## 5. Recomendaciones
+
+### Mejora 1 — Revisar y revocar periódicamente los permisos
+
+Establecer revisiones periódicas de los permisos de acceso y revocar de forma inmediata aquellos que ya no sean necesarios para las funciones del usuario.
+
+Esto habría reducido el riesgo de que el representante conservara acceso a una carpeta interna después de finalizar la necesidad de consultar su contenido.
+
+### Mejora 2 — Limitar los permisos según la función y necesidad
+
+Aplicar permisos específicos según la función del usuario y la información que necesita utilizar, evitando conceder acceso a carpetas completas cuando únicamente sea necesario acceder a determinados archivos.
+
+Cuando sea posible, los recursos compartidos con terceros deberían utilizar permisos limitados, como acceso de solo lectura, evitando capacidades innecesarias de modificación o gestión.
+
+---
+
+## 6. Justificación
+
+Las revisiones periódicas permitirían detectar y eliminar accesos que ya no sean necesarios, mientras que la asignación de permisos específicos reduciría la cantidad de información disponible para cada usuario. Estas medidas aplicarían de forma más efectiva el principio de mínimo privilegio y disminuirían el impacto de errores humanos al compartir información.
+
+---
+
+## 7. Análisis técnico
+
+El incidente demuestra que la fuga no fue consecuencia de un único error, sino de una combinación de **error humano, exceso de privilegios y ausencia de una gestión adecuada del ciclo de vida de los permisos**.
+
+El primer fallo se produjo cuando el representante mantuvo acceso a una carpeta interna después de que dejara de necesitarlo. Esto rompe el principio de mínimo privilegio porque el usuario conserva capacidades de acceso superiores a las necesarias para desempeñar su función.
+
+El segundo fallo ocurrió durante la reunión comercial. El representante pretendía compartir únicamente los materiales de marketing, pero compartió accidentalmente el enlace de la carpeta completa. Como consecuencia, el socio comercial obtuvo acceso a información que no necesitaba.
+
+El incidente demuestra una diferencia importante entre:
+
+**"El usuario necesita acceso"**
+
+y
+
+**"El usuario necesita acceso a todo el contenido del recurso".**
+
+Una implementación correcta del mínimo privilegio debe limitar tanto el acceso al recurso como las acciones que el usuario puede realizar sobre él.
+
+---
+
+## 8. Controles que podrían reducir el riesgo
+
+| Riesgo identificado                    | Control recomendado                       | Resultado esperado                                |
+| -------------------------------------- | ----------------------------------------- | ------------------------------------------------- |
+| Accesos que permanecen activos         | Revisión periódica de permisos            | Eliminación de accesos innecesarios               |
+| Exceso de información accesible        | Acceso basado en necesidad                | Menor exposición de información                   |
+| Compartición accidental de carpetas    | Permisos específicos por archivo/recurso  | Menor probabilidad de exposición                  |
+| Acciones innecesarias sobre documentos | Permisos de solo lectura                  | Reducción de modificación o gestión no autorizada |
+| Error humano                           | Procedimientos de compartición y revisión | Reducción de errores de configuración             |
+
+---
+
+## 9. Relación con el principio de mínimo privilegio
+
+El principio de mínimo privilegio establece que los usuarios, procesos y sistemas deben disponer únicamente de los permisos necesarios para realizar sus funciones.
+
+En este escenario, una aplicación correcta del principio habría implicado:
+
+* Retirar el acceso del representante cuando dejara de necesitarlo.
+* Evitar el acceso permanente a carpetas completas cuando solo fueran necesarios determinados archivos.
+* Compartir con el socio comercial únicamente la información necesaria.
+* Utilizar permisos limitados para recursos compartidos externamente.
+* Revisar periódicamente los accesos existentes.
+
+---
+
+## 10. Conclusión
+
+La fuga de datos demuestra que una organización puede disponer de controles de seguridad y, aun así, quedar expuesta cuando los permisos no se gestionan correctamente.
+
+La aplicación efectiva de NIST SP 800-53 AC-6 requiere limitar los privilegios desde el momento en que se conceden y revisarlos durante todo su ciclo de vida. La combinación de revisiones periódicas, acceso basado en necesidad y permisos específicos reduce tanto la probabilidad de errores como el impacto potencial de una cuenta legítima comprometida o utilizada incorrectamente.
+
+### Competencias demostradas
+
+* Análisis de incidentes de seguridad.
+* Identificación de riesgos de privacidad.
+* Principio de mínimo privilegio.
+* Gestión de permisos y accesos.
+* Análisis de errores humanos.
+* Aplicación de controles de seguridad.
+* Uso del marco NIST SP 800-53.
+* Recomendación de medidas preventivas.
