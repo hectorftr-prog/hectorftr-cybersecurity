@@ -16,6 +16,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 - Nivel 3: Frontend (eFundae)
 - Nivel 3: Business Analytics (eFundae)
 - EF SET English Certificate — C1 Advanced (66/100)
+- MF0952_2 — Publicación de Páginas Web** (Módulo Oficial del MEFP / FP, 90h) 
 
 ## Proyectos
 
