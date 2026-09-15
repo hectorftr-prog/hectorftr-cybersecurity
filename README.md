@@ -36,7 +36,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
   * Diagnóstico del sistema de archivos mediante `ls -la`, reconfiguración de permisos de archivos y directorios con `chmod` y aplicación del principio de mínimo privilegio (PoLP).
 * 📁 [**Proyecto 8: Análisis de Logs mediante Filtros SQL**](./proyecto-08-sql-log-analysis)
   - *Aplicación de consultas SQL para filtrar registros de autenticación, identificar intentos de acceso fallidos, analizar actividad por fecha y ubicación y segmentar información mediante `AND`, `OR`, `NOT`, `LIKE` e `IN`.*
-* 📁 [Proyecto 9: Evaluación y Priorización de Riesgos de Seguridad](./proyecto-09%20Evaluaci%C3%B3n%20y%20Priorizaci%C3%B3n%20de%20Riesgos%20de%20Seguridad%20%7C%20Google%20Cybersecurity/README)y)
+* 📁 [Proyecto 9: Evaluación y Priorización de Riesgos de Seguridad](./proyecto-09%20Evaluaci%C3%B3n%20y%20Priorizaci%C3%B3n%20de%20Riesgos%20de%20Seguridad%20%7C%20Google%20Cybersecurity/README)
   - Análisis y priorización de riesgos mediante evaluación de probabilidad e impacto, con propuesta de controles de mitigación.
 * 📁 [Proyecto 10: Fuga de Datos y Mínimo Privilegio](./proyecto-10-fuga-datos-minimo-privilegio/Readme)
   - Implementación del principio de mínimo privilegio (PoLP) y controles de acceso para mitigar la exfiltración de información.
