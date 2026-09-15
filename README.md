@@ -30,7 +30,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
     *   *Plan estratégico de endurecimiento de sistemas operativos, accesos corporativos y políticas de contraseñas.*
 * 📁 [**Proyecto 5: Reporte de Incidente bajo el Marco NIST CSF – ICMP Flood**](./proyecto-05-incident-report-nist-csf)
   - *Gestión completa de un ataque perimetral estructurado bajo las fases Identify, Protect, Detect, Respond y Recover.*
-* 📁 [Proyecto 6: Análisis de Compromiso por Fuerza Bruta — Yummy Recipes](...)
+* 📁 [Proyecto 6: Análisis de Compromiso por Fuerza Bruta — Yummy Recipes](proyecto-06-fuerza-bruta-yummyrecipes/README)
   - *Identificación de protocolos de red, documentación de incidente y recomendación de controles contra ataques de fuerza bruta.*
 * 📁 [Proyecto 7: Auditoría y Gestión de Permisos en Linux](./proyecto-07-permisos-linux)
   * Diagnóstico del sistema de archivos mediante `ls -la`, reconfiguración de permisos de archivos y directorios con `chmod` y aplicación del principio de mínimo privilegio (PoLP).
