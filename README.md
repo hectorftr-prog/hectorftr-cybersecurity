@@ -7,7 +7,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 ## Formación en curso
 
 - 🔐 **Google Cybersecurity Professional Certificate** (Coursera, beca Google Scholarships) — en curso
-- 💻 **IFCD0210 — Desarrollo de Aplicaciones con Tecnologías Web** (Certificado de Profesionalidad Nivel 3, 590h + prácticas) — Liceo 2000, presencial
+- 💻 **IFCD0210 — Desarrollo de Aplicaciones con Tecnologías Web** (Certificado de Profesionalidad Nivel 3, 590h + prácticas) — Liceo 2000
 
 ## Certificaciones completadas
 
