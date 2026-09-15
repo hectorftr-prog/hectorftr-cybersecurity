@@ -20,7 +20,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 ## Proyectos
 
 
-* 📂 [**Proyecto 1: Auditoría de Seguridad — Botium Toys**](./proyecto-1-auditoria-botium-toys)
+* 📂 [**Proyecto 1: Auditoría de Seguridad — Botium Toys**](./proyecto-01-auditoria-botium-toys)
     *   *Análisis de cumplimiento y auditoría interna de controles de seguridad de la información.*
 * 📂 [**Proyecto 2: Análisis de Incidentes de Red — Yummy Recipes**](./proyecto-2-analisis-red-yummyrecipes)
     *   *Investigación técnica de tráfico sospechoso y gestión de alertas perimetrales.*
