@@ -39,6 +39,8 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
   - *Aplicación de consultas SQL para filtrar registros de autenticación, identificar intentos de acceso fallidos, analizar actividad por fecha y ubicación y segmentar información mediante `AND`, `OR`, `NOT`, `LIKE` e `IN`.*
 * 📁 [Proyecto 9: Evaluación y Priorización de Riesgos de Seguridad](./proyecto-9-evaluacion-y-priorizacion-de-riesgos)
   - Análisis y priorización de riesgos mediante evaluación de probabilidad e impacto, con propuesta de controles de mitigación.
+* 📁 Proyecto 10 — Análisis de Fuga de Datos y Mínimo Privilegio
+  - Análisis de Fuga de Datos y Principio de Mínimo Privilegio — NIST SP 800-53 AC-6 
 
 ## Contacto
 - LinkedIn: https://www.linkedin.com/in/hectorfalero/
