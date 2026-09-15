@@ -11,6 +11,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 
 ## Certificaciones completadas
 
+- Google IT Support Professional Certificate (Google, Coursera) 
 - Foundations of Cybersecurity (Google, Coursera)
 - Itinerario: Lenguajes de Programación Web (eFundae)
 - Nivel 3: Frontend (eFundae)
