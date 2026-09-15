@@ -38,6 +38,8 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
 ](proyecto-8-sql-log-analysis/README.md)
   - *Aplicación de consultas SQL para filtrar registros de autenticación, identificar intentos de acceso fallidos, analizar actividad por fecha y ubicación y segmentar información mediante `AND`, `OR`, `NOT`, `LIKE` e `IN`.*
 ## Contacto
+* 📁 [Proyecto 9: Evaluación y Priorización de Riesgos de Seguridad](./proyecto-9-evaluacion-y-priorizacion-de-riesgos)
+  - Análisis y priorización de riesgos mediante evaluación de probabilidad e impacto, con propuesta de controles de mitigación.
 
 - LinkedIn: https://www.linkedin.com/in/hectorfalero/
 - Email: hectorftr@gmail.com
