@@ -44,7 +44,7 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
   - Implementación del principio de mínimo privilegio (PoLP) y controles de acceso para mitigar la exfiltración de información.
 * 📁 [Proyecto 11: Auditoría de Controles de Acceso — Incidente de Nómina](./proyecto-11%3A%20Auditor%C3%ADa%20de%20Controles%20de%20Acceso-%20Incidente%20de%20N%C3%B3mina)
   - Análisis de un incidente de acceso no autorizado, identificación de fallos de control y aplicación del principio de mínimo privilegio (PoLP), RBAC y MFA.
-* 📁 [Proyecto 12: Evaluación de Vulnerabilidades – Servidor de Base de Datos](./proyecto-12-evaluacion-vulnerabilidades-db)
+* 📁 [Proyecto 12: Evaluación de Vulnerabilidades – Servidor de Base de Datos](./proyecto-12:%20Evaluación%20de%20Seguridad%20y%20Mitigación%20de%20Riesgos%20-%20Servidor%20E-commerce)
   - *Evaluación cualitativa de riesgos bajo el marco NIST SP 800-30 de una base de datos expuesta públicamente y plan de remediación mediante firewall, VPN y MFA.*
 
 ## Contacto
