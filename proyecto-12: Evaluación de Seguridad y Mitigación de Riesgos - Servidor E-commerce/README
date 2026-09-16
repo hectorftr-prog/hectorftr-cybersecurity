@@ -1,0 +1,21 @@
+## Purpose
+
+The purpose of this vulnerability assessment is to identify, evaluate, and mitigate security risks associated with the company’s remote database server, which has been publicly accessible on the internet for three years. The database stores sensitive customer information and sales leads that remote employees rely on for daily business operations. Protecting this asset is essential to maintaining data confidentiality, integrity, and availability. A successful compromise could result in unauthorized disclosure of customer information, business disruption, financial losses, and potential regulatory consequences.
+
+## Risk Assessment
+
+| Threat Source                        | Threat Event                                                                | Likelihood (1–3) | Severity (1–3) | Risk Score (1–9) |
+| ------------------------------------ | --------------------------------------------------------------------------- | ---------------: | -------------: | ---------------: |
+| External attacker / cybercriminal    | Unauthorized access and exfiltration of customer records                    |                3 |              3 |            **9** |
+| External attacker / ransomware actor | Compromise of the server followed by data encryption and service disruption |                3 |              3 |            **9** |
+| External attacker / threat actor     | Denial-of-service attack against the publicly exposed database service      |                2 |              2 |            **4** |
+
+**Risk calculation:** Likelihood × Severity = Risk Score.
+
+## Approach
+
+A qualitative risk assessment approach based on NIST SP 800-30 was used to identify and prioritize threats affecting the publicly accessible database server. The likelihood of unauthorized access and server compromise was rated high because the database has been directly exposed to the internet for an extended period, increasing its attack surface and exposure to external threat actors. The severity of data exfiltration and ransomware-related disruption was rated high because the database supports critical business operations and contains sensitive customer information. The denial-of-service scenario was assigned a moderate risk score because it could significantly affect availability while primarily impacting the continuity of operations rather than directly compromising data confidentiality.
+
+## Remediation
+
+The first priority is to remove the database from direct public exposure by placing it behind a properly configured firewall and restricting inbound connections to authorized sources only. Remote employees should access the database through a secure VPN using Multi-Factor Authentication (MFA), preventing unauthorized internet users from directly connecting to the database service. Role-Based Access Control (RBAC) and the Principle of Least Privilege should be implemented so that users receive only the permissions required for their job responsibilities. Database data should be encrypted both at rest and in transit, while authentication, authorization, and activity logging should be implemented to support the AAA security model and provide accountability for access to sensitive information.
