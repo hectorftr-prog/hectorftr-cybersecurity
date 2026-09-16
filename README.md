@@ -42,8 +42,8 @@ Profesional en transición hacia ciberseguridad, tras más de 20 años de experi
   - Análisis y priorización de riesgos mediante evaluación de probabilidad e impacto, con propuesta de controles de mitigación.
 * 📁 [Proyecto 10: Fuga de Datos y Mínimo Privilegio](./proyecto-10-fuga-datos-minimo-privilegio/Readme)
   - Implementación del principio de mínimo privilegio (PoLP) y controles de acceso para mitigar la exfiltración de información.
-* 📁 [Proyecto 11: Auditoría de Controles de Acceso — Incidente de Nómina](./Proyecto%2011%3A%20Auditor%C3%ADa%20de%20Controles%20de%20Acceso%20%E2%80%94%20Incidente%20de%20N%C3%B3mina)
-  - Análisis de un incidente de acceso no autorizado, identificación de fallos de control y aplicación del principio de mínimo privilegio (PoLP), RBAC y MFA.(./proyecto-11: Auditoría de Controles de Acceso- Incidente de Nómina/README).
+* 📁 [Proyecto 11: Auditoría de Controles de Acceso — Incidente de Nómina](./proyecto-11%3A%20Auditor%C3%ADa%20de%20Controles%20de%20Acceso-%20Incidente%20de%20N%C3%B3mina)
+  - Análisis de un incidente de acceso no autorizado, identificación de fallos de control y aplicación del principio de mínimo privilegio (PoLP), RBAC y MFA.
 
 ## Contacto
 - LinkedIn: https://www.linkedin.com/in/hectorfalero/
